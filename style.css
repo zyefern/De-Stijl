@@ -1,0 +1,56 @@
+body{
+        background-color:black;
+    }
+    .menu-box{
+        width:45px;
+        height:45px;
+        background-color:#ddd;
+        border-radius:10px;
+        text-align:center;
+    }
+    .menu-box:hover{
+      cursor:pointer;
+        background-color:#aaa;
+    }
+    .menu-inside{
+      display:none;
+      border:solid gray 1px;
+      width:410px;
+      padding:5px;
+    }
+    .menu-button{
+      display:inline-block;
+      width:auto;
+      height:20px;
+      border-radius:10px;
+      padding: 7px;
+      cursor:pointer;
+    }
+    .menu-button:active{
+      background-color:grey;
+    }
+    .white{
+        background-color:white;
+    }
+    .yellow{
+        background-color:yellow;
+    }
+    .blue{
+        background-color:blue;
+        color:white;
+    }
+    .red{
+        background-color:red;
+    }
+    
+    .clear{
+        background-color:grey;
+        color:white;
+    }
+    
+    .rd{
+        cursor:move;
+        display:inline-block;
+        position:absolute;
+        border:10px solid black;
+    }
