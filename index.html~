@@ -5,19 +5,19 @@
 <!--scripts-->
     
     <!--Supporting my obsession with jQuery and jQuery UI-->
-    <script src="depend/jquery-1.10.2.js"></script>
-    <script src="depend/jquery-ui.js"></script>
+    <script src="jquery-1.10.2.js"></script>
+    <script src="jquery-ui.js"></script>
     
     <!--script that gets us touch screen support; credit to Dave Furfero-->
     <!--touch not tested on smart phones or tablets by me-->
-    <script src="depend/jquery.ui.touch-punch.min.js"></script>
+    <script src="jquery.ui.touch-punch.min.js"></script>
     
     <!--My main working script to run all my stuff-->
     <script src="script.js"></script>
     
  
 <!--styles-->
-    <link rel="stylesheet" href="depend/jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui.css">
   
     <link rel="stylesheet" href="style.css">
   </head>
