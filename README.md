@@ -14,3 +14,7 @@ TO DO:
  •Improve "clear all" to check for boxes before alerting
  
  •maybe use onClick rather than jQuery's click function
+
+
+
+DISCLAIMER: This is primarily just a project for me to get more familiar with git and github. It is still a very real project, but it is not a primary project for me. All contributions are welcome! :)
