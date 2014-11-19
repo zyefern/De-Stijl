@@ -3,6 +3,8 @@ De-Stijl
 
 A interactive webpage that recreates a De Stijl type of artwork
 
+<a href="http://htmlpreview.github.io/?https://github.com/zyefern/De-Stijl/blob/master/index.html">Github demo</a>
+
 Uses jQuery, jQuery UI, and a handy script for touch screen support.
 
 Touch script for jQuery UI: http://touchpunch.furf.com/
