@@ -25,13 +25,13 @@
   
   <body>
     <!--Our humble menu-->
-    <div class="menu-box">Menu</div>
+    <div class="menu-box" onClick="menuToggle()">Menu</div>
     <div class="menu-inside">
-      <div class="menu-button red"> Red box</div>
-      <div class="menu-button blue"> Blue box</div>
-      <div class="menu-button white"> White box</div>
-      <div class="menu-button yellow"> Yellow box</div>
-      <div class="menu-button clear">CLEAR ALL</div>
+      <div class="menu-button red" onClick="redBox()"> Red box</div>
+      <div class="menu-button blue" onClick="blueBox()"> Blue box</div>
+      <div class="menu-button white" onClick="whiteBox()"> White box</div>
+      <div class="menu-button yellow" onClick="yellowBox()"> Yellow box</div>
+      <div class="menu-button clear" onClick="clearBox()">CLEAR ALL</div>
     </div>
     
     <!--this is where all our boxes will go, and what the "clear" function will target when clicking "CLEAR ALL"-->

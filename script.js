@@ -1,54 +1,41 @@
-$(document).ready
-      (
-        function()
-        {
-          // used the open and close the menu
-          $('.menu-box').click(
-          function()
+
+// used the open and close the menu
+var menuToggle=function()
           {
             $('.menu-inside').toggle(200);
           }
-          );
-          
-          //the following are used to create colored boxes inside the ".append" class in the html file
-          
-          $('.menu-button.white').click(
-            function()
+
+//the following are used to create colored boxes inside the ".append" class in the html file
+
+var whiteBox=function()
             {
               $('.append').append('<div class="white rd" style="height:100px;width:100px"></div>');
               $('.rd').resizable();
               $('.rd').draggable();
             }
-          );
-          $('.menu-button.blue').click(
-            function()
+
+var blueBox=function()
             {
               $('.append').append('<div class="blue rd" style="height:100px;width:100px"></div>');
               $('.rd').resizable();
               $('.rd').draggable();
             }
-          );
-          $('.menu-button.red').click(
-            function()
+
+var redBox=function()
             {
               $('.append').append('<div class="red rd" style="height:100px;width:100px"></div>');
               $('.rd').resizable();
               $('.rd').draggable();
             }
-          );
-          
-          $('.menu-button.yellow').click(
-            function()
+
+var yellowBox=function()
             {
               $('.append').append('<div class="yellow rd" style="height:100px;width:100px"></div>');
               $('.rd').resizable();
               $('.rd').draggable();
             }
-          );
-          
-          //clear all option without having to refresh the page
-          $('.menu-button.clear').click(
-            function()
+
+var clearBox=function()
             {
               var c = confirm('Clear All The Boxes?');
               if (c == true)
@@ -56,9 +43,5 @@ $(document).ready
                 $('.rd').remove();
               }
             }
-          );
-          
-        }// end anonymous function
-      );// end (document).ready
-  
+
   
